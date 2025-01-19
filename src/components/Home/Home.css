@@ -1,0 +1,61 @@
+.home {
+  background-image: url('../../assets/BackgroundHero..svg');
+  background-size: cover;
+  height: 90vh;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.Home-heading {
+  font-size: 3.7rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 3.8rem;
+  margin-top: 2rem;
+}
+
+.Home-description {
+  font-size: 1.2rem;
+  color: rgb(75 85 99);
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+
+button {
+  background-color: #fbc531;
+  color: black;
+  border: none;
+  padding: 1.3rem 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .home {
+      height: 80vh;
+      padding: 20px;
+  }
+
+  .Home-heading {
+      font-size: 2rem;
+      margin-top: 1rem;
+      line-height: 2.5rem;
+  }
+
+  .Home-description {
+      font-size: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+  }
+
+  button {
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+      margin-top: 1.5rem;
+  }
+}
