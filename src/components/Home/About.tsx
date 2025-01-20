@@ -10,7 +10,7 @@ function About() {
       <div className="about-heading">
         <div>
           <p>Open Source Theme and UI Components</p>
-          <div className="heading" style={{width: '100vh'}}>
+          <div className="heading" style={{width: '100%'}}>
           <h1>Geaux Astro helps you craft beautiful websites efficiently</h1>
           </div>
         </div>
