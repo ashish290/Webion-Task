@@ -119,12 +119,28 @@
   }
 
   .student-info {
-    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .total-student-box,
+  .placed-student-box,
+  .unplaced-student-box {
+    width: 100%;
+    min-width: unset;
   }
 
   .total-student-count,
   .placed-student-count,
   .unplaced-student-count {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .total-student,
+  .placed-student,
+  .unplaced-student {
+    font-size: 0.5rem;
+    font-weight: 600;
   }
 }
