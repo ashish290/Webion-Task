@@ -40,6 +40,8 @@
     margin: 0;
     padding: 0;
     height: 11.5vh;
+    display: flex;
+    align-items: flex-start;
   }
   .menu-bar {
     border-radius: 0;
